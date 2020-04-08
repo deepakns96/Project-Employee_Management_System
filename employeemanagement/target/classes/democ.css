@@ -1,0 +1,78 @@
+body{
+background-image: url("ems7.jpg");
+background-size: cover;
+font-family: Arial;
+font-size: 12px;
+
+}
+.main{
+position: absolute;
+top: -20px;
+left: -20px;
+right: -40px;
+bottom: -40px;
+width: auto;
+height: auto;
+}
+
+
+.header{
+position: absolute;
+top: calc(50% - 35px);
+left: calc(50% - 255px);
+
+}
+.header div{
+float: left;
+color: #fff;
+font-family: 'Exo', sans-serif;
+font-size: 35px;
+font-weight: 200;
+}
+
+
+.login{
+position: absolute;
+top: calc(50% - 75px);
+left: calc(50% - 50px);
+}
+
+.login input[type=text]{
+color: #ffffff;
+width: 250px;
+height: 30px;
+background: transparent;
+border: 1px solid rgba(255,255,255,0.6);
+border-radius: 2px;
+font-size: 16px;
+font-weight: 400;
+padding: 4px;
+}
+.login input[type=password]{
+width: 250px;
+height: 30px;
+background: transparent;
+border: 1px solid rgba(255,255,255,0.6);
+border-radius: 2px;
+margin-top: 10px;
+font-size: 16px;
+font-weight: 400;
+padding: 4px;
+}
+.login input[type=submit]{
+width: 262px;
+height: 35px;
+cursor: pointer;
+border-radius: 2px;
+color: #a18d6c;
+font-size: 16px;
+font-weight: 400;
+margin-top: 10px;
+font-size: 16px;
+font-weight: 400;
+padding: 4px;
+}
+
+::placeholder {
+  color: white;
+}
